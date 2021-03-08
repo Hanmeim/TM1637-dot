@@ -3,7 +3,7 @@ enum pins{
 }
 }
 //% color="#A5001D" iconWidth=50 iconHeight=40
-namespace keypad4x4  {
+namespace c_TM1637  {
     //% block="TM1637数码管初始化 CLK引脚：[CLK] DIO引脚：[DIO]" blocktype="command"
     //% CLK.shadow="dropdown" CLK.options="PIN_DigitalWrite"
     //% DIO.shadow="dropdown" DIO.options="PIN_DigitalWrite"

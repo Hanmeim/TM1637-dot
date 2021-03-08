@@ -32,7 +32,7 @@ namespace c_TM1637  {
 
     //% block="设置TM1637数码管第 [POS] 位显示 [NUM]" blockType="command"
     //% POS.shadow="range" POS.params.min=1 POS.params.max=4 POS.defl=1
-    //% NUM.shadow="dropdownRound" NUM.options="NUM_DispData" Num.defl="0"
+    //% NUM.shadow="dropdownRound" NUM.options="NUM_DispData" NUM.defl="0"
     export function TM1636_sel_disp(parameter: any, block: any) {
         let position = parameter.POS.code - 1;
         let disp_number = parameter.NUM.code;
